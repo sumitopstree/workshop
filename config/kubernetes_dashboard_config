@@ -21,10 +21,10 @@ subjects:
   name: admin-user
   namespace: kube-system
 
-3. kubectl create -f dashboard.yaml
-
+3. kubectl create -f dashboard.yml
 
 4. kubectl -n kube-system edit service kubernetes-dashboard
+
 
 and change ClusterIP to NodePort
 
